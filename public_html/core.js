@@ -1,5 +1,5 @@
 /*
-Released under  GNU General Public License v.3 ad maiorem Dei gloriam
+Released under  GNU AFFERO General Public License v.3 ad maiorem Dei gloriam
 Creator: Emanuele Ferri
 Developer: Emanuele Ferri
 Past tursim developer: Vincenzo Manto
