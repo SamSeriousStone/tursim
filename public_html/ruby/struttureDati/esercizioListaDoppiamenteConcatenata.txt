@@ -1,0 +1,21 @@
+Implementa la classe Lista con i seguenti metodi:
+
+vuota?			#ritorna se (true o false) la lista è vuota
+
+append(valore)		#aggiunge un nodo (passando un valore) in coda alla lista
+
+prepend(valore)		#aggiunge un nodo (passando un valore) in testa alla lista
+
+to_s			#prende tutti i valori della lista e li concatena
+
+reverse			#crea una nuova lista rovesciata
+
+length                  #restituisce il numero di nodi
+
+to_array                #restituisce un array coi valori della lista
+
+get(n)			#ritorna l'ennesimo elemento della lista
+
+rimuovi(n)		#rimuove l'ennesimo nodo dalla lista
+
+inserisci(val,n)	#inserisce val in un nodo nella posizione n

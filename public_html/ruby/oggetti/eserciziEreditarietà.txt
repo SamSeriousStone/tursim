@@ -1,0 +1,36 @@
+STUDENTI E CLASSI (richiede ereditarietà)
+
+Tutte le classi hanno il metodo initialize e il metodo to_s
+
+Realizza una classe Persona coi metodi
+maschio?
+femmina?
+cognome
+nome
+anno
+maggiorenne?
+
+Realizza una classe Studente che è una Persona con in più i metodi
+ripetente?
+
+Realizza una classe Insegnante che è una Persona con in più i metodi
+materia
+anzianità
+
+Realizza una classe Dirigente che è un Insegnante con in più i metodi
+
+
+Realizza una classe Classe coi metodi
+anno
+sezione
+aggiungiStudente
+aggiungiInsegnante
+cercaStudente
+cercaInsegnante
+passaggioClasseSuccessiva
+
+Realizza una classe Scuola coi metodi
+preside=
+aggiungiClasse
+cercaStudente
+cercaInsegnante

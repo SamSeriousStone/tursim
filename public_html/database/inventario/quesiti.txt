@@ -1,0 +1,5 @@
+Select, where:
+
+-Seleziona tutte le categoria di prodotti (sia hardware che software).
+
+-Seleziona tutti i prodotti inventariati (sia hardware che software).

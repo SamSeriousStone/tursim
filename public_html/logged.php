@@ -1,0 +1,9 @@
+<?php
+require_once '../common.php';
+require_once '../esftp.php';
+header("Content-Type: application/json");
+
+$sftp=new ESFTP(get('host'));
+if($sftp->access(get('username'),get('password'))) echo json_encode(get('username'));
+else echo 'false';
+?>

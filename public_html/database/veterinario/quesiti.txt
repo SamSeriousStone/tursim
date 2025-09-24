@@ -1,0 +1,57 @@
+NB: Per le date usa stringhe nel formato ISO 8601 (YYYY-MM-DD, per esempio 2014-12-17).
+
+Select, where:
+
+-L'elenco delle patologie.
+
+-L'elendo delle razze.
+
+-Tutti i padroni col telefono.
+
+-Tutti padroni senza telefono.
+
+-Tutti i cani meticci (codice, nome).
+
+-Tutti i cani di razza.
+
+-Tutte le vaccinazioni eseguite nel 2008 (cane, e patologia).
+
+-Tutti i cani vaccinati nel 2008 contro la rabbia.
+
+Join tra tabelle:
+
+-Nominativo e numero di telefono dei padroni di barboncini.
+
+-Nominativo e numero di telefono dei padroni dei cani vaccinati nel 2008.
+
+-Nominativo e numero di telefono dei padroni dei cani vaccinati contro la rabbia.
+
+Distinct:
+
+-Tutte le razze di cani in cura dal veterinario senza ripetizioni.
+
+-Tutti i cani vaccinati senza ripetizioni.
+
+-Tutti i cani vaccinati nel 2008 senza ripetizioni.
+
+Operazioni insiemistiche:
+
+-Tutti i cani che non sono mai stati vaccinati.
+
+-Tutte le razze non presenti tra i cani in cura.
+
+Funzioni di aggregazione e raggruppamento:
+
+-Il numero di cani.
+
+-Il numero dei padroni.
+
+-Il numero di razze di cui non si hanno cani.
+
+-Il numero di patologie contro cui i cani non sono mai stati vaccinati.
+
+-Il numero di "richiami" nel 2011. Nota che si possono somministrare più vaccini contemporanemante.
+
+In (e not in)
+
+-I cani (codice, nome, ...) che non sono mai stati vaccinati.

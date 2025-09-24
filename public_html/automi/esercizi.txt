@@ -1,0 +1,52 @@
+AUTOMI
+
+Riconosce se la stringa abba è presente su nastro. A={a,b}
+
+Resto divisione per due, tre, quattro, cinque.
+
+AUTOMI DI MEALY
+
+Traduce dall'alfabeto morse {.,-, } all'alfabeto latino.
+
+Filtra 0 e 1 isolati. A={0,1}.
+Es: 0001001111011 diventa 0000000111111
+
+
+MACCHINE DI TURING
+
+Determina se una stringa nell'alfabeto {0,1} è palindroma.
+
+Addizione (con stecchini).
+
+Moltiplicazione (con stecchini).
+
+Sottrazione (con stecchini).
+
+Divisione (con stecchini).
+
+Trasforma un numero espresso mediante stecchini nel corrispondente binario.
+
+Dato un numero intero espresso in notazione posizionale binaria, realizza una macchina di Turing che incrementa (aggiunge 1) il numero.
+Alfabeto={0,1, }
+Es:
+0 produce 1
+1 produce 10
+10111 produce 11000
+I primi otto numeri naturali scritti in notazione posizionale binaria:
+  0
+  1
+ 10
+ 11
+100
+101
+110
+111
+NB: Se i numeri si scrivessero da sinistra verso destra basterebbe un automa di Mealy.
+
+
+Dato un numero razionale espresso in notazione posizionale binaria con la virgola, realizza una macchina di Turing che elimina gli zeri in fondo al numero ed eventualmente anche la virgola.
+Alfabeto={ ,0,1,,} NB1: L"ultima virgola è simbolo dell"alfabeto.
+Es:
+101,100 produce 101,1
+101,0 produce 101
+NB2: Se i numeri si scrivessero da sinistra verso destra basterebbe un automa di Mealy.

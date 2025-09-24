@@ -1,0 +1,75 @@
+Select, where:
+
+-I donatori di topolinia
+
+-I donatori con rh negativo
+
+-I donatori nati prima del 1980
+
+-I gruppi sanguigni
+
+-I gruppi sanguigni disponibili
+
+
+Join tra tabelle
+
+-Le donazioni col nominativo e il gruppo sanguigno del donatore
+
+
+Operazioni insiemistiche (except,union,intersect): 
+
+-I gruppi sanguigni di cui non si hanno donatori
+
+-I gruppi sanguigni mai donati
+
+
+Funzioni di aggregazione (count,max,min) e raggruppamento:
+
+-Il numero dei donatori
+
+-Il numero delle donazioni
+
+-Il numero di donazioni effettuate nel 2012
+
+-Il numero dei diversi gruppi sanguigni di cui si hanno donatori
+
+-Il numero dei gruppi sanguigni di cui non si hanno donatori
+
+-Il numero dei diversi gruppi sanguigni donati
+
+-Il numero di donatori per ogni gruppo sanguigno
+
+-Il numero di donazioni per ogni donatore
+
+-Nominativo, codice fiscale e data di nascita del donatore più giovane
+
+-Nominativo, codice fiscale e data di nascita del donatore più vecchio
+
+
+In e not in (si può usare anche una serie di uguaglianze con or):
+
+-I donatori che abitano a topolinia o a paperopoli
+
+-I donatori che non abitano nè a topolina nè a paperopoli
+
+-I donatori con ab0 A oppure B
+
+
+Query annidate:
+
+-Il numero di diversi gruppi sanguigni di cui si hanno donatori
+
+-Il numero di diversi gruppi sanguigni di cui non si hanno donatori
+
+-Il gruppo sanguigno maggiormente disponibile
+
+-Quanti donatori si hanno in media per ogni gruppo disponibile
+
+-Le ultime (plurale) donazioni effettuate
+
+-Le ultime (plurale) donazioni effettuate con anche il nominativo del donatore
+
+-I donatori (cf, nominativo, residenza) che hanno donato almeno una volta
+
+-I donatori (cf, nominativo, residenza) che non hanno mai donato
+

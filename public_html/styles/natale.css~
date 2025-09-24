@@ -1,0 +1,116 @@
+/* Font natalizio */
+html, body {
+  font-family: 'Georgia', serif; /* Font più elegante per il Natale */
+}
+
+/* Colori principali */
+body {
+  background: linear-gradient(to bottom, #ffcccc, #ffffff); /* Sfondo sfumato rosso e bianco */
+  color: #2e2e2e; /* Testo scuro per leggibilità */
+}
+
+a {
+  color: #b30000; /* Rosso acceso */
+}
+a:hover {
+  color: #008000; /* Verde acceso */
+}
+
+/* Tabelle con bordi natalizi */
+td {
+  border-color: #b30000; /* Bordi rossi */
+  background-color: #fff8e7; /* Sfondo avorio caldo */
+  color: #2e2e2e; /* Testo scuro */
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(255, 0, 0, 0.3); /* Effetto leggero di luminosità rossa */
+}
+
+/* Testate più decorative */
+h2 {
+  color: #b30000; /* Rosso acceso */
+  text-shadow: 2px 2px 5px #800000; /* Effetto ombra natalizio */
+}
+
+/* Dock natalizio */
+.dock {
+  background-color: #008000; /* Verde intenso */
+  border: 2px solid #b30000; /* Bordo rosso */
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 128, 0, 0.5); /* Luminosità verde */
+}
+.dock>.button {
+  color: #fff; /* Pulsanti bianchi */
+  background: linear-gradient(to bottom, #b30000, #800000); /* Gradiente rosso */
+  border-radius: 50%; /* Forma circolare */
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.8); /* Luminosità */
+}
+
+/* Toolbar natalizia */
+.toolbar {
+  background-color: #ffcc00; /* Oro scintillante */
+  border-bottom: 3px solid #b30000; /* Bordo inferiore rosso */
+  box-shadow: 0 5px 10px rgba(255, 204, 0, 0.5); /* Ombra dorata */
+}
+.toolbar>.button {
+  background-color: #008000; /* Verde intenso */
+  color: #fff; /* Testo bianco */
+  border: 1px solid #b30000; /* Bordo rosso */
+  border-radius: 5px;
+  text-shadow: 1px 1px 2px #000; /* Leggera ombra */
+}
+
+/* Elementi con dettagli natalizi */
+.win {
+  border: 3px solid #ffcc00; /* Bordo dorato */
+  background-color: #fff8e7; /* Avorio caldo */
+  box-shadow: 0 5px 10px rgba(255, 204, 0, 0.5); /* Effetto luminoso */
+}
+.win>[data-nomen=container] {
+  border: 1px solid #b30000; /* Bordo interno rosso */
+}
+
+/* Fiocchi di neve come decorazioni */
+body:before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/60/Snowflakes_icon.png');
+  background-repeat: repeat;
+  background-size: 100px 100px; /* Fiocchi di neve */
+  opacity: 0.2;
+}
+
+/* Pulsanti attivi con effetto Natale */
+.button:active {
+  background-color: #ffcc00; /* Cambia colore a oro */
+  box-shadow: 0 0 10px rgba(255, 204, 0, 0.8); /* Scintillio */
+}
+
+/* Effetto neve che cade */
+@keyframes snow {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+body:after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 50%;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/d/d2/Transparent_snow_falling.gif');
+  background-size: cover;
+  opacity: 0.1; /* Leggero effetto neve */
+  animation: snow 10s linear infinite;
+}
+

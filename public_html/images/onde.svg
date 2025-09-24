@@ -1,0 +1,14 @@
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="wavePattern" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <!-- Onda 1 -->
+      <path d="M 0 50 C 25 30, 75 70, 100 50 
+               S 175 30, 200 50" fill="none" stroke="lightblue" stroke-width="5"/>
+      <!-- Onda 2 -->
+      <path d="M 0 75 C 25 55, 75 95, 100 75 
+               S 175 55, 200 75" fill="none" stroke="lightcoral" stroke-width="5"/>
+    </pattern>
+  </defs>
+  
+  <rect width="100%" height="100%" fill="url(#wavePattern)" />
+</svg>

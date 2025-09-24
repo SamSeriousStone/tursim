@@ -1,0 +1,153 @@
+/* Sovrascritture avanzate per uno stile audace */
+html {
+  font-family: 'Roboto', sans-serif;
+  color: #222831;
+  background: linear-gradient(to bottom, #393e46, #00adb5);
+}
+
+body {
+  padding: 2rem;
+  gap: 2rem;
+  background-color: #eeeeee;
+  border: 5px solid #00adb5;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+a {
+  color: #00adb5;
+  font-weight: bold;
+}
+a:hover {
+  color: #ff5722;
+  text-decoration: underline;
+}
+
+table {
+  border: 3px solid #00adb5;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+}
+
+td {
+  border-color: #222831;
+  border-width: 2px;
+  font-size: 1.2rem;
+  color: #393e46;
+}
+
+h2 {
+  color: #00adb5;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  border-bottom: 3px solid #222831;
+}
+
+.dock {
+  background-color: #222831;
+  color: #eeeeee;
+  border-radius: 50px;
+  padding: 1rem 2rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+.dock>.button {
+  font-size: 2.5rem;
+  color: #00adb5;
+}
+.dock>.button:hover {
+  color: #ff5722;
+  transform: scale(1.2);
+}
+
+.button {
+  font-size: 1.5rem;
+  color: #393e46;
+  background: linear-gradient(to right, #00adb5, #393e46);
+  border-radius: 10px;
+  padding: 0.7rem 1.5rem;
+  transition: all 0.3s ease-in-out;
+}
+.button:hover {
+  background: linear-gradient(to right, #ff5722, #222831);
+  color: #ffffff;
+  transform: translateY(-5px);
+}
+.button:active {
+  box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.7);
+}
+
+.win {
+  background: linear-gradient(to bottom, #393e46, #00adb5);
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+}
+.win>[data-nomen=container] {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.hamburger[data-checked=false]::before {
+  content: "\f0c9";
+  color: #00adb5;
+}
+.hamburger[data-checked=true]::before {
+  content: "\f00d";
+  color: #ff5722;
+}
+.hamburger {
+  background-color: #222831;
+  padding: 1rem;
+  border-radius: 50px;
+  transition: transform 0.3s;
+}
+.hamburger:hover {
+  transform: rotate(180deg);
+}
+
+.dropdown {
+  background-color: #393e46;
+  color: #eeeeee;
+  border: 2px solid #00adb5;
+  border-radius: 10px;
+  padding: 1rem;
+}
+.dropdown>[data-nomen=container] {
+  background-color: #eeeeee;
+  color: #222831;
+  padding: 0.5rem;
+}
+
+.file_browser {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.file_manager {
+  background-color: #00adb5;
+  color: #ffffff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.submitter {
+  background-color: #222831;
+  color: #eeeeee;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+.submitter>label {
+  font-weight: bold;
+  color: #00adb5;
+}
+.submitter>[data-nomen=save_button] {
+  background: linear-gradient(to right, #00adb5, #ff5722);
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+}
+

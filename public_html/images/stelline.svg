@@ -1,0 +1,19 @@
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="starPattern" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <!-- Stellina grande che si estende oltre il bordo -->
+      <polygon points="50,10 60,40 95,40 65,60 75,90 50,70 25,90 35,60 5,40 40,40" 
+               fill="lightcoral" opacity="0.7" />
+
+      <!-- Stellina piccola che si estende oltre il bordo -->
+      <polygon points="70,60 75,75 90,75 77,83 82,98 70,89 58,98 63,83 50,75 65,75" 
+               fill="lightblue" opacity="0.7" />
+               
+      <!-- Stellina media al centro -->
+      <polygon points="25,30 30,45 45,45 32,53 37,68 25,59 13,68 18,53 5,45 20,45" 
+               fill="lightgreen" opacity="0.7" />
+    </pattern>
+  </defs>
+  
+  <rect width="100%" height="100%" fill="url(#starPattern)" />
+</svg>

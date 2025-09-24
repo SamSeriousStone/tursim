@@ -1,0 +1,132 @@
+/* Font e colori generali */
+html, body {
+  font-family: 'Nanum Gothic', sans-serif;
+  background: linear-gradient(to bottom, #fff0f6, #ffe6ff);
+  color: #4a4a4a;
+}
+
+h2 {
+  font-family: 'Baloo 2', cursive;
+  color: #ff69b4;
+}
+
+a {
+  color: #ff85c0;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #ff4d6d;
+  text-shadow: 0px 0px 5px #ff4d6d;
+}
+
+/* Bottoni */
+.button {
+  border-radius: 8px;
+  background-color: #ffd6e7;
+  color: #4a4a4a;
+  border: 2px solid #ff85c0;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: #ff85c0;
+  color: white;
+  box-shadow: 0 4px 8px rgba(255, 133, 192, 0.4);
+}
+
+.button:active {
+  transform: scale(0.95);
+}
+
+/* Dock */
+.dock {
+  background-color: rgba(255, 240, 246, 0.9);
+  border-radius: 12px;
+  border: 2px solid #ff85c0;
+}
+
+.dock > .button {
+  color: #ff69b4;
+}
+
+html[data-mobile=false] body > [data-nomen=dock]:hover {
+  box-shadow: 0 4px 12px rgba(255, 133, 192, 0.3);
+}
+
+/* Toolbar */
+.title_bar {
+  background-color: rgba(255, 240, 246, 0.9);
+  border-bottom: 2px solid #ff85c0;
+}
+
+.title_bar > .button {
+  background-color: #ffd6e7;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Tabelle */
+table {
+  border: 2px solid #ff85c0;
+}
+
+td {
+  border-color: #ff85c0;
+  background-color: #ffe6ff;
+  border-radius: 4px;
+}
+
+/* Finestre */
+.win {
+  border: 2px solid #ff85c0;
+  background: linear-gradient(to bottom, #ffe6ff, #fff0f6);
+  border-radius: 12px;
+}
+
+.win > [data-nomen=container] {
+  padding: 1.5rem;
+  border-radius: 8px;
+  background: white;
+}
+
+/* Dropdown */
+.dropdown > [data-nomen=container] {
+  border-left: 4px solid #ff85c0;
+}
+
+.dropdown > [data-nomen=action] {
+  color: #ff4d6d;
+}
+
+/* Effetti aggiuntivi */
+[data-panel=true] > img {
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.style_master > [data-checked=true] {
+  background-color: #ff85c0;
+  color: white;
+  border-radius: 8px;
+}
+
+.hamburger {
+  background-color: #ffd6e7;
+  border-radius: 50%;
+}
+
+.hamburger[data-checked=true] {
+  background-color: #ff69b4;
+}
+
+.file_browser, .file_manager {
+  border: 2px solid #ff85c0;
+  background: white;
+  border-radius: 12px;
+}
+

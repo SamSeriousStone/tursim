@@ -1,0 +1,49 @@
+fattoriale
+fibonacci
+aritmetica
+conto alla rovescia
+quante volte un numero è divisibile per 2
+semplificazione di frazioni
+scomposizione in fattori
+MCD
+mcm
+radice babilonese
+
+MCD con Euclide
+
+
+Dato in ingresso un numero intero ritorna quante volte è divisibile per due.
+Es:
+< 64
+> 6
+Es:
+< 15
+> 0
+Es:
+< 236
+> 2
+
+
+Dato in ingresso un numero naturale positivo n, ritorna la somma degli inversi dei numeri naturali da 1 a n (1/1+1/2+...+1/n).
+Es:
+< 1
+> 1.0
+Es:
+< 2
+> 1.5
+Es:
+< 14
+> 3.251562326562327
+
+
+Data in ingresso una stringa restituisce una stringa scritta al contrario(senza usare reverse).
+NB: Per
+Es:
+< pino
+> onip
+Es:
+< c
+> c
+Es:
+< 
+>

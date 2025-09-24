@@ -1,0 +1,23 @@
+Implementa la classe Nodo coi seguenti metodi
+
+initialize(value)   #crea un nodo con all'interno un valore
+
+value               #restituisce il valore contenuto nel nodo
+
+value=(value)       #modifica il valore del nodo
+
+get(n)              #restituisce il figlio n-esimo del nodo
+
+add(value)          #aggiunge un figlio con all'interno un valore
+
+nChildren           #restituisce il numero di figli del nodo
+
+to_s                #restituisce una stringa concatenando tutti i valori dei nodi
+
+size                #conta il numero di nodi
+
+include?(value)     #determina se (true o false) è presente un certo valore
+
+count(value)        #conta le occorrenze di un certo valore
+
+height              #determina l'altezza

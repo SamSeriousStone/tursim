@@ -1,0 +1,9 @@
+Implementa i seguenti metodi:
+
+tree(dir)          #restituisce i percorsi dei file a partire da una certa directory
+
+dim(dir)           #conta il numero di file a partire da una certa directory
+
+find(dir,file)     #restituisce i percorsi completi di tutti i file con un certo nome (o estensione)
+
+size(dir)          #determina la somma delle dimensioni di tutti i file a partire da una certa directory

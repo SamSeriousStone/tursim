@@ -1,0 +1,67 @@
+I SEGUENTI PROGRAMMI, PER ESSERE IMPLEMENTATI, NECESSITANO di
+-Array
+
+Implementa una funzione che:
+
+
+-Legge in input degli interi e li mette in un array. Termina quando al posto di un numero viene inserita la parola fine.
+
+
+-Usa a=eval(gets) per leggere in input un array. Dopo averlo letto lo stampa.
+
+
+-Calcola il massimo elemento di un array di interi.
+
+
+-Scambia il primo e l'ultimo elemento di un array.
+
+
+-Verifica se (true o false) un elemento è presente nell'array.
+
+
+-Somma gli elementi di un array.
+
+
+-Calcola la media di un array di interi.
+
+
+-Prende un array e restituisce un array (di interi) rovesciato.
+Es:
+< [3,4,2,5,6]
+> 6
+> 5
+> 2
+> 4
+> 3
+
+
+-Determina se (true o false) un array è palindromo
+
+
+-Dato un intero e un array di interi, se l'elemento è presente nell'array lo toglie
+Es:
+< 3
+< [5,7,4,3,3,5,6]
+> 5
+> 7
+> 4
+> 3
+> 5
+> 6
+
+-Ordina un array di interi.
+Es:
+< [4,5,3,2,7]
+> 2
+> 3
+> 4
+> 5
+> 7
+
+-Determina se (true o false) un elemento è presente in un array ORDINATO.
+
+-Concatena due array.
+
+-Implementa nuovamente gli esercizi col while usando la ricorsione.
+
+-Implementa il gioco "Forza Quattro" umano contro umano usando un array di array della stessa lunghezza (matrice).

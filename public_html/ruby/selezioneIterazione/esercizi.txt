@@ -1,0 +1,90 @@
+I SEGUENTI PROGRAMMI, PER ESSERE IMPLEMENTATI, NECESSITANO DI:
+
+-Selezione (if)
+e/o
+-Iterazione (while) (oppure della ricorsione)
+
+Classifica i triangoli in base ai lati
+
+Classifica i triangoli in base agli angoli
+
+Classifica i triangoli in base ai lati e agli angoli
+
+Calcola il massimo tra due numeri
+Es:
+< 3
+< 2
+> 3
+
+Calcola il massimo tra tre numeri
+Es:
+< 3
+< 2
+< 5
+> 5
+
+Calcola il massimo tra n numeri
+< 4 #indica quanti numeri leggere
+< 3
+< 5
+< 7
+< 0
+> 7
+
+Calcola il fattoriale di un numero
+Es:
+< 3
+> 6
+
+Somma dei numeri naturali da 0 a n con n dato in input
+Es:
+< 4
+> 10
+PS: Rileggi la storia del piccolo Gauss
+
+Scrive n volte "ciao mondo", con n dato in input, SENZA USARE *
+Es:
+< 2
+> ciao mondo
+> ciao mondo
+
+Stampa i numeri dispari da 1 a n con n dato in input
+Es:
+< 4
+> 1
+> 3
+
+Somma i numeri dati in input e si ferma quando legge la stringa "fine"
+Es:
+< 3
+< 5
+< 2
+< fine
+> 10
+
+Fattoriale
+
+Scomposizione in fattori
+
+Massimo comun divisore
+
+Semplificazione di una frazione
+
+Minimo comune multiplo
+
+Somma di due frazioni
+
+Conversione da base 10 a base 2 (a base n)
+
+Somma partendo dal successore (+1)
+
+Prodotto partendo dalla somma
+
+Elevamento a potenza partendo dal prodotto
+
+Tris
+
+Successione di Fibonacci
+
+Calcolo della radice quadrata approssimata di un numero col metodo babilonese
+  https://it.wikipedia.org/wiki/Metodi_per_il_calcolo_della_radice_quadrata#Interpretazione_geometrica

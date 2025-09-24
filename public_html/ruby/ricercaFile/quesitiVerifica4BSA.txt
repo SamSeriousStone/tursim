@@ -1,0 +1,73 @@
+Il voto minimo è uno, il voto massimo dieci.
+Completa i metodi (funzioni) seguenti salvando il codice nei file 1.rb, 2.rb, 3.rb posti all'interno della directory verifica5 nella tua home.
+NB: Non modificare il resto del codice.
+
+
+1)Dato un albero n-ario completa il metodo conta che restituisce il numero dei nodi che lo compongono.
+
+class Nodo
+  def initialize(value)
+    @value=value
+    @children=[]
+  end
+  def addChild(value)
+    nodo=Nodo.new(value)
+    @children.push(nodo)
+  end
+  def getChild(n)
+    return @children[n]
+  end
+  def conta
+    n=########
+    for child in @children
+      n=n+########
+    end
+    return ########
+  end
+end
+
+radice=Nodo.new("a")
+radice.addChild("b")
+radice.addChild("c")
+radice.addChild("d")
+radice.getChild(0).addChild("e")
+radice.getChild(1).addChild("f")
+radice.getChild(0).getChild(0).addChild("g")
+puts radice.conta
+
+
+
+2)Completa la funzione visita che restituisce un array con tutti i file e le directory contenuti nel sottoalbero del file system a partire dalla directory corrente.
+
+def visita(path=Dir.pwd)
+  ########=[path]
+  if File.directory?(path)&&!File.symlink?(path)
+    children=Dir.entries(path)
+    for child in children
+      if child[0]!="."
+        visitati=visitati+########(path+"/"+child)
+      end
+    end
+  end
+  return ########
+end
+
+puts visita
+
+
+
+3)Completa la funzione search che stampa tutti i file con un certo nome o aventi tra gli antenati una directory con quel nome.
+
+def search(file,path=Dir.pwd,founded=false)
+  founded=########||(########==File.basename(path))
+  if File.directory?(path)
+    children=Dir.entries(path)-[".",".."]
+    for child in children
+      search(file,path+"/"+child,founded)
+    end
+  elsif ########
+    puts path
+  end
+end
+
+search(gets.chomp)

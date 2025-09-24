@@ -1,0 +1,5 @@
+Data una formula aritmetica nella notazione prefissa, per esempio
+-(+(3,2),5)
+che tradotto nella notazione infissa si scrive
+(3+2)-5
+implementare un programma che la risolva.

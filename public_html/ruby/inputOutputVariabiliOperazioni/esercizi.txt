@@ -1,0 +1,94 @@
+I SEGUENTI PROGRAMMI, PER ESSERE IMPLEMENTATI, NECESSITANO DI:
+-Output 
+-Input 
+-Tipi di dato 
+--Stringhe 
+--Numeri interi 
+--Numeri razionali 
+--Booleani 
+-Variabili 
+--Dichiarazione 
+--Assegnamento 
+-Espressioni aritmetiche 
+-Espressioni booleane 
+--Operatori logici 
+--Operatori di confronto
+
+
+Legge due stringhe e restituisce la loro concatenazione (senza a capo)
+
+Legge due stringhe e verifica se (true o false) sono uguali
+
+Legge due stringhe e verifica se (true o false) la prima precede la seconda in ordine alfabetico
+
+Legge una stringa e stampa la sua lunghezza
+
+Legge un intero e stampa il suo doppio
+
+Legge un intero e stampa il suo quadrato
+
+Legge due interi e verifica se (true o false) il primo è il quadrato del secondo
+
+Legge due interi e verifica se (true o false) il primo è minore del secondo
+
+Legge due interi e verifica se (true o false) il primo è minore o uguale al secondo
+
+Legge base e altezza di un rettangolo e calcola l'area
+
+Legge il lato di un quadrato e calcola l'area
+
+Legge tre interi e verifica se (true o false) formano una terna pitagorica (in qualunque ordine)
+
+Legge due interi e calcola il resto della divisione intera tra il primo e il secondo
+
+Legge tre numeri interi e verifica se (true o false) sono tutti diversi
+
+Legge base e altezza di un triangolo e calcola l'area
+
+Legge una stringa e la stampa al contrario (reverse)
+
+Legge una stringa e verifica se (true o false) è palindroma
+
+Legge due stringhe e verifica se (true o false) la prima è più lunga della seconda
+
+Legge una stringa e trasforma le lettere minuscole in maiuscole (upcase)
+
+Legge una stringa e trasforma le lettere maiuscole in minuscole (downcase)
+
+Legge due stringhe e verifica se (true o false) la prima contiene la seconda (include?)
+
+Legge una stringa e se la prima lettera è minuscola la trasforma in maiuscola (capitalize)
+
+Legge un numero intero e verifica se (true o false) è divisibile per tre
+
+Legge un numero intero e calcola il suo inverso
+
+Legge due numeri interi e calcola la loro media
+
+Legge un numero razionale ed lo eleva alla terza
+
+NUOVI
+
+Legge due numeri interi e determina se (true o false) il primo è divisibile per il secondo
+
+Legge tre numeri razionali e determina se (true o false) sono i lati di un triangolo
+
+Legge due numeri interi e determina se sono l'uno l'opposto dell'altro
+
+Legge tre numeri razionali che rappresentano i coefficienti di una equazione di secondo grado e determina se (true o false) l'equazione ha soluzioni
+
+NUOVISSIMI
+
+Legge un razionale che rappresenta il raggio e calcola il perimetro della circonferenza
+
+Legge tre interi e determina se (true o false) sono in ordine crescente stretto
+
+Legge due numeri razionali che rappresentano il coefficiente angolare e il termine noto dell'equazione in forma esplicita di una retta e calcola l'ascissa dell'intersezione della retta con l'asse delle x
+
+Stampa un albero di natale come quello sotto
+  *
+ * *
+* * *
+  |
+
+Data in ingresso una stringa determina se (true o false) la sua lunghezza è pari e maggiore di zero

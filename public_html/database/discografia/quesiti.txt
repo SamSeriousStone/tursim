@@ -1,0 +1,31 @@
+Select, where:
+
+-Seleziona tutti gli album (titolo, gruppo e anno)
+
+-Seleziona il nome di tutti i gruppi inglesi (uk)
+
+-Seleziona i titoli e i gruppi delle title track (canzoni che hanno lo stesso titolo dell'album a cui appartengono).
+
+
+Join tra più tabelle:
+
+-Seleziona tutti gli artisti coi rispettivi anni di nascita appartenenti a gruppi americani (usa).
+
+-Seleziona tutte le canzoni (titolo, album) con l'anno di pubblicazione dell'album a cui appartengono.
+
+
+Operazioni insiemistiche (except,union,intersect)
+
+-Seleziona gli album senza canzoni.
+
+
+Funzioni di aggregazione e raggruppamento:
+
+-Trova l'età media degli artisti (siamo nel 2018) considerando che Ronnie James Dio e Lemmy Kilmister sono morti (ma il loro spirito è vivo)
+
+-Seleziona il numero di canzoni per ogni album (che ha almeno una canzone)
+
+Query annidate:
+
+Seleziona gli album che hanno almeno tre canzoni.
+

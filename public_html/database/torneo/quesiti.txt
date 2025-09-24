@@ -1,0 +1,30 @@
+Implementa le query seguenti:
+
+Select, where:
+-I nomi delle squadre del saval.
+
+-I giocatori (cf, nominativo e data di nascita) di san michele.
+
+-Le partite (squadre,punteggi) vinte in casa.
+
+-Le partite pareggiate.
+
+-Le partite vinte dai porcelli.
+
+Join:
+
+Le partite (squadre,punteggi e località di gioco) vinte in casa.
+
+-I (potenziali) giocatori della partita panettoni-porcelli;
+
+Funzioni di aggregazione e raggruppamento:
+
+-Il numero di partite giocate.
+
+-Il numero di goal segnati in casa e in trasferta.
+
+-La media dei goal segnati in casa e la media dei punti in trasferta.
+
+-I punti segnati in casa da ogni squadra
+
+-I numeri di giocatori per ogni squadra.

@@ -1,0 +1,264 @@
+*********
+*08_Bash*
+*********
+
+***
+*1*
+***
+
+#Comandi da utilizzare:
+#pwd, nano, mkdir, mv, cp, rm, rmdir cd, ls
+#per avere informazioni su un comando:
+#man nomecomando
+
+
+#Visualizza la tua posizione corrente all'interno del file-system.
+
+
+#Crea file contenente le tue considerazioni su Linux e sul terminale.
+
+
+#Crea una directory verifiche nella tua home.
+
+
+#Crea una directory esercizi nella tua home
+
+
+#Crea una directory spazzatura nella directory esercizi.
+
+
+#Sposta il file creato nella directory esercizi rinominandolo come 1.txt .
+
+
+#Copia il file 1.txt in 2.txt, aprilo e e poi cancellalo.
+
+
+#Cancella la directory spazzatura.
+
+
+#Gironzola liberamente all'interno del file-system e ritorna nella tua home il più in fretta possibile.
+
+
+
+
+***
+*2*
+***
+
+#Comandi da utilizzare:
+#mkdir, cp, mv, cat, touch, ls, ln, rm
+#per informazioni su un comando:
+#man nomeComando
+
+
+#creare una directory pippo nella propria home e al suo interno creare un'altra directory pluto
+
+
+#accedere alla directory pluto mediante il collegamento
+
+
+#dalla home cancellare la directory pippo e il suo contenuto con un solo comando
+
+
+#riprovare ad accedere alla directory pluto mediante il suo collegamento
+
+
+#cancellare il collegamento ormai inutile
+
+
+#spostarsi nella directory più interna (pluto) e copiarci dentro il file /home/ferri-emanuele/public_html/bash/1.txt
+
+
+#spostare il file 1.txt nella directory superiore (pippo) usando un percorso relativo
+
+
+#visualizzare il file 1.txt (senza usare nano)
+
+
+#nascondere il file 1.txt mettendo un punto (.) all'inizio del file
+
+
+#creare un file vuoto prova.txt (senza usare nano)
+
+
+#visualizzare gli attributi di tutti i file e le directory contenuti nella directory pippo
+
+
+#visualizzare gli attributi di tutti i file con estensione txt contenuti nella directory pippo
+
+
+#nella propria home creare un collegamento alla directory pluto (la più interna)
+
+
+
+
+***
+*3*
+***
+
+#Comandi da usare:
+#mkdir, cd, touch, chmod, ls
+
+
+#Creare una directory vuota prova.
+
+
+#Creare all'interno della directory prova il file vuoto 1.txt.
+
+
+#Cambiare i permessi del file in modo da aggiungere e togliere la leggibilità, scrivibilità ed eseguibilità al proprietario, al gruppo, a tutti gli altri.
+
+
+#Verificare ogni modifica dei permessi effettuata sul file.
+
+
+
+
+***
+*4*
+***
+
+#Comandi da usare: reindirizzamento dell'output >, sort, cat, cut
+
+
+#salva in un file l'elenco di tutte le home degli utenti
+
+
+#scrivi una poesia nel file poesia.txt nella tua home
+
+
+#ordina le righe della poesia
+
+
+#crea un poema ordinando la concatenazione di tutte le poesie presenti
+
+
+#salva il poema in un file
+
+
+#visualizza gli utenti del sistema e salva l'output in un file
+
+
+
+
+***
+*5*
+***
+
+
+
+#Crea una directory spazzatura e la directory spazzaneve nella tua home.
+
+
+#Copia il file /home/ferri-emanuele/public_html/conversioni.txt nella directory spazzatura col nome conv.txt .
+
+
+#Sposta il file da spazzatura a spazzaneve rinominandolo col nome boh.txt .
+
+
+#Visualizza il contenuto del file senza usare un editor.
+
+
+#Cancella il file.
+
+
+
+
+***
+*6*
+***
+
+#Crea nella tua home la directory "pizza" e spostati al suo interno.
+
+
+#Crea i file vuoti "pippo" e "pluto" possibilmente senza usare un editor.
+
+
+#Crea la directory "topolinia".
+
+
+#Sposta il file "pippo" nella directory "topolinia". Sposta anche il file "pluto" nella directory "topolinia" cambiandogli il nome in "topolino".
+
+
+#Copia i due file, "pippo" e "topolino", nella directory superiore.
+
+
+#Cancella i file "pippo", "topolino" e la directory "topolinia".
+
+
+#Rendi eseguibile a tutti il file "pippo" e togli il permesso di lettura e scrittura al proprietario del file "topolino".
+
+
+#Elenca i file della directory "pizza" coi relativi attributi (permessi, data, proprietario, gruppo, ...) e salva l'output nel file "elenco". Controlla il contenuto del file "elenco" per verificare che i permessi siano giusti.
+
+
+#Crea un link simbolico alla directory "/etc" .
+
+
+
+
+***
+*7*
+***
+
+#Crea la directory film e spostati al suo interno.
+
+
+#Crea la directory fantascienza.
+#Possibilmente senza spostarti, nella directory fantascienza, SENZA USARE UN EDITOR, crea il file matrix e il file interstellar.
+
+
+#Entra nella directory fantascienza.
+#Nascondi il file interstellar e visualizza il contenuto della directory corrente (fantascienza), compresi i file nascosti.
+
+
+#Cancella il file nascosto e sposta il file matrix nella directory superiore.
+
+
+#Spostati nella directory superiore (film).
+#Mostra il contenuto della directory corrente (film), compresi i permessi, reindirizzando l'output nel file elenco.txt della directory film.
+
+
+#Visualizza il contenuto del file elenco.txt, possibilmente ordinando le righe.
+
+
+#Cambia i permessi del file matrix in modo da renderlo scrivibile a tutti e togli l'accesso in lettura al gruppo alla directory fantascienza.
+
+
+#Nella directory film, crea un link simbolico alla directory corrente, ossia film ( :-| :-/ :-O ) ed entra nel link un paio di volte...
+
+
+#Cancella la directory fantascienza e tutti i file con estensione .txt .
+
+
+
+
+***
+*8*
+***
+
+#Crea la directory videogiochi e spostati al suo interno.
+
+
+
+
+#Crea i file ps4 e xboxone nella directory sony e il file xbox360 nella directory microsoft.
+
+
+#Sposta il file xboxone dalla directory sony alla directory microsoft e nascondi il file xbox360.
+
+
+#Cancella il file ps4 della directory sony e la directory sony.
+
+
+#Elenca i file della directory microsoft COMPRESI QUELLI NASCOSTI e reindirizza l'output nel file microsoft.txt .
+
+
+#Aggiungi il permesso di scrittura per il gruppo al file microsoft.txt e togli il permesso di accesso per gli altri alla directory microsoft.
+
+
+#Crea un link simbolico alla directory /usr/local/bin .
+
+
+#Visualizza il file /etc/passwd senza usare un editor.
+

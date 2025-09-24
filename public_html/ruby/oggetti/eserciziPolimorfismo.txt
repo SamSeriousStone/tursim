@@ -1,0 +1,30 @@
+GEOMETRIA SOLIDA (richiede polimorfismo)
+
+Realizza diverse classi per diversi tipi di poligono (quadrato, rettangolo, cerchio (non è un poligono ma fa lo stesso)). Tutte le classi implementano i metodi
+perimetro
+area
+più altri metodi specifici della classe.
+
+Implementa la classe Prisma coi metodi polimorfici
+volume
+superficie. 
+
+
+GEOMETRIA PIANO CARTESIANO (richiede polimorfismo)
+
+Implementa le classi Punto, Segmento, Cerchio coi seguenti metodi:
+trasla(dx,dy)    #trasla la figura geometrica di dx e dy;
+to_s             #restituisce una stringa con le caratteristiche della figura geometrica;
+contiene(p)      #determina se (true o false) una figura geometrica contiene o meno il punto p.
+
+Implementa la classe Composizione coi seguenti metodi:
+aggiungi         #aggiunge alla composizione una figura geometrica o anche un'altra composizione;
+trasla(dx,dy)    #trasla tutti gli elementi della composizione di dx e dy;
+to_s             #restituisce le caratteristiche di tutti gli elementi della composizione;
+contiene(p)      #determina se (true o false) un punto è contenuto in almeno una figura geometrica della composizione.
+
+Se lo ritieni opportuno aggiungi altri metodi specifici delle classi.
+
+FATTI FURBO: quando possibile usa i metodi già implementati, non reinventare la ruota!
+Nota come i tre metodi sono comuni a tutte le classi, compresa la classe Composizione (polimorfismo).
+Sfrutta il polimorfismo!
