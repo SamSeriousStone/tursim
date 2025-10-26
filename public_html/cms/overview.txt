@@ -1,0 +1,13 @@
+Tursim is a content management system with a window-based visual interface, equipped with a graphical simulator for automata, Mealy machines, and Turing machines.
+
+On the client side, it is entirely developed in JavaScript. The interface is defined through JSON, using a simple and easily extensible language.
+
+The server is currently implemented in PHP, but since communication with the client also takes place via JSON, it can potentially be implemented in other languages as well.
+
+Tursim relies on the file system and Linux system users, eliminating the need for a database. It can also make use of users and files already present on the system.
+
+It includes a file explorer with copy, move, delete, and directory creation features. A recycle bin is also available, which preserves different versions of files, including those that have been overwritten.
+
+Basic collaboration features are supported through the creation of user groups. A simple style selector allows adding, removing, and reordering CSS stylesheets.
+
+Originally designed for educational purposes, Tursim combines simplicity, speed, and extensibility, qualities that also make it a potential lightweight alternative to more complex CMS platforms.

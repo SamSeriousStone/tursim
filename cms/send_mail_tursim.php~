@@ -1,0 +1,21 @@
+<?php
+require_once dirname(__DIR__,1)."/vendor/autoload.php";
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
+function send_mail($address,$subject,$body){
+  $mail = new PHPMailer(true);
+  $mail->isSMTP();
+  $mail->Host       = 'smtps.aruba.it';
+  $mail->SMTPAuth   = true;
+  $mail->Username   = 'noreply@tursim.it';
+  $mail->Password   = 'Fable32_';
+  $mail->SMTPSecure = 'ssl';
+  $mail->Port       = 465;
+  $mail->setFrom('noreply@tursim.it','tursim');
+  $mail->addAddress($address);
+  $mail->Subject    = $subject;
+  $mail->Body       = $body;
+  $mail->send();
+  }
+?>

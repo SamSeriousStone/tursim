@@ -1,9 +1,0 @@
-Funzioni di aggregazione e raggruppamento:
-
--Il numero di studenti della 5a.
-
--La media dei voti nelle prove scritte.
-
--Il voto più alto assegnato in Matematica.
-
--Il voto più basso assegnato in Informatica.

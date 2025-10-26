@@ -1,0 +1,2 @@
+Request to deactivate your account.  
+This action cannot be undone, so proceed carefully.

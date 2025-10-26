@@ -1,0 +1,2 @@
+Update the email address linked to your account.  
+We will send a confirmation link to the new email.
